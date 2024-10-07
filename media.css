@@ -1,0 +1,307 @@
+@media screen and (max-width:768px){
+
+    .nav-item:hover::after,.nav-item .home::after{
+        width: 12%;
+        left: 5px;
+    }
+
+    .heading h1{
+        font-size: 3rem;
+        
+    }
+
+    .heading h1::after{
+        position: absolute;
+        left: 37%;
+        top: 122%;
+        font-size: 1.5rem;
+    }
+
+    .morgan{
+        top:30%
+    }
+
+    .portofollio{
+        padding: 4rem 15px !important;
+
+    }
+
+    .testi{
+        padding-left: 0px !important;
+        flex-direction: column;
+    }
+
+    .client{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .client-img{
+        margin-left: 6px;
+    }
+
+    .skill p{
+   padding-top: 0 !important;
+    }
+
+    
+    .about{
+        margin-top: 27px;
+    }
+
+
+    .services p::after,.porto p::after,.blog p::after{
+        left: 46%;
+    }
+
+    
+    .about h5,.foot h5,.foot2 h5{
+        font-size: 2rem !important;
+    }
+    .about h5::after,.foot h5::after,.foot2 h5::after{
+        width: 101px;
+        height: 4px;
+    }
+
+   .portofollio .container{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        padding-bottom: 55px !important;
+    }
+
+    .serv-item{
+        margin-top: 3rem;
+    }
+
+    .achivements{
+        background-image:linear-gradient( rgba(13, 109, 253, 0.612), rgba(13, 110, 253,0.612)), url(post-3.jpg);
+        background-size: cover;
+        background-position: center center ;
+        background-attachment: none;
+    }
+
+    .accomplishments{
+        gap: 10px;
+    }
+
+    #carouselExampleAutoplaying{
+        width: 100% !important;
+    }
+
+    .chef-feedback p{
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+
+    .inner4{
+        margin-top: 3rem;
+    }
+
+    nav{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important; 
+    }
+
+    .blog-section .container{
+        margin-top: 0 !important;
+        padding-top: 0.5rem !important;
+        padding-bottom:  0 !important;
+    }
+
+    .blog-info-1::after{
+        left: 42.5%;
+    }
+   
+    .blog-info::after{
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform:translate(-50%,-50%) ;
+    }
+
+    .form-section{
+        padding-left:3% !important ;
+        padding-right:3% !important ;
+        padding-top: 15% !important;
+    }
+
+    .form-section .container{
+        padding: 48px 20px 75px !important;
+    }
+
+    .form form{
+        width: 100%;
+    }
+
+    .foot2{
+        margin-top: 20px;
+    }
+
+    .foot2 p{
+        margin-top: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+
+    nav{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important; 
+    }
+
+    .nav-item:hover::after,.nav-item .home::after{
+        width: 7%;
+        left: 10px;
+    }
+
+    .morgan{
+        top:25%
+    }
+
+    .heading h1::after{
+        left: 36%;
+    }
+
+    .portofollio{
+        padding: 4rem 2rem 3rem !important;
+
+    }
+
+    .client-img{
+        width: 105px;
+        height: 105px;
+    }
+
+    .client{
+        margin-left: 15px;
+    }
+
+    .about h5::after,.foot h5::after,.foot2 h5::after{
+        width: 101px;
+        height: 3px;
+    }
+
+    .services-items{
+        margin-top: 2.5rem;
+    }
+
+    .achivements{
+        background-attachment: unset;
+        background-position: center bottom;
+        background-size: contain;
+    }
+
+    .leaves{
+        background-attachment: unset;
+    }
+
+    #carouselExampleAutoplaying{
+        width: 98% !important;
+    }
+
+    .experience{
+        margin-top: 15%;
+    }
+    
+    .blog-info::after{
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform:translate(-50%,-50%) ;
+    }
+
+    .blog-info-1::after{
+        left: 35%;
+    }
+
+    .client-info a img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .client-time-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .time-info{
+        margin-left: auto;
+    }
+
+    .form-section{
+        background-attachment: unset;
+        padding-left:7% !important ;
+        padding-right:7% !important ;
+        padding-top: 10% !important;
+    }
+
+    .form-section .container{
+        padding-top: 3rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    .about h5,.foot h5,.foot2 h5{
+        font-size: 2rem !important;
+    }
+    }
+
+    @media only screen and (max-width: 1224px) and (min-width: 1025px){
+
+        .client-img{
+            width: 150px;
+            height: 150px;
+        }
+    
+        .client{
+            margin-left: 20px;
+        }
+
+    .blog-info::after{
+        
+        position: absolute;
+            top: 0%;
+            left: 50%;
+            transform:translate(-50%,-50%) ;
+        }
+     
+        #carouselExampleAutoplaying{
+            width: 86.5% !important;
+        }
+        
+        .blog-info-1::after{
+            left: 40%;
+        }
+
+        
+    .form-section{
+        padding-left:5% !important ;
+        padding-right:5% !important ;
+        padding-top: 8% !important;
+    }
+
+    .about h5::after,.foot h5::after,.foot2 h5::after{
+        width: 96px;
+        height: 3px;
+    }
+    }
+
+    @media only screen and (max-width: 1400px) and (min-width: 1225px){
+        
+    .blog-info::after{
+        position: absolute;
+            top: 0%;
+            left: 50%;
+            transform:translate(-50%,-50%) ;
+        }
+
+        .blog-info-1::after{
+            left: 42%;
+        }
+
+        
+    .about h5::after,.foot h5::after,.foot2 h5::after{
+        width: 96px;
+        height: 3px;
+    }
+    }
+    

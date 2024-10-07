@@ -1,0 +1,603 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container .logo{
+font-size: 28px;
+letter-spacing: 1px;
+text-transform: none;
+}
+
+.nav-item .home::after{
+ content: "";
+ width: 50%;
+ height: 1px;
+ background-color: aliceblue;
+ position: absolute;
+ left: 18px;
+ bottom: 0;
+}
+
+.nav-item{
+    position: relative;
+}
+
+.nav-item::after{
+ content: "";
+ width: 0%;
+ height: 1px;
+ background-color: aliceblue;
+ position: absolute;
+ left: 18px;
+ bottom: 0;
+ transition: width 0.4s;
+}
+
+.nav-item:hover::after{
+    width: 55%;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.553), rgba(0, 0, 0, 0.553)) ,url(hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.morgan{
+    top:31%
+}
+
+.heading h1{
+    font-size: 4.5rem;
+    position: relative;
+}
+
+.heading h1::after{
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    top: 120%;
+    content: "D";
+    color: aliceblue;
+    font-size: 2.5rem;
+    animation: words 20s alternate infinite;
+}
+
+
+         @keyframes words{
+            0%{
+                content: 'D|';
+            }
+            1%{
+                content: 'De|';
+            }
+            2%{
+                content: 'Des|';
+            }
+            3%{
+                content: 'Desi|';
+            }
+            4%{
+                content: 'Desig|';
+            }
+            5%{
+                content: 'Design|';
+            }
+            6%{
+                content: 'Designe|';
+            }
+            7%{
+                content: 'Designer|';
+            }
+            8%{
+                content: 'Designe|';
+            }
+            9%{
+                content: 'Design|';
+            }
+            10%{
+                content: 'Desig|';
+            }
+            11%{
+                content: 'Desi|';
+            }
+            12%{
+                content: 'Des|';
+            }
+            13%{
+                content: 'De|';
+            }
+            14%{
+                content: 'Dev|';
+            }
+            15%{
+                content: 'Deve|';
+            }
+            16%{
+                content: 'Devel|';
+            }
+            17%{
+                content: 'Develo|';
+            }
+            18%{
+                content: 'Develop|';
+            }
+            19%{
+                content: 'Develope|';
+            }
+            20%{
+                content: 'Developer|';
+            }
+            21%{
+                content: 'Develope|';
+            }
+            22%{
+                content: 'Develop|';
+            }
+            23%{
+                content: 'Develo|';
+            }
+            24%{
+                content: 'Devel|';
+            }
+            25%{
+                content: 'Deve|';
+            }
+            26%{
+                content: 'Dev|';
+            }
+            27%{
+                content: 'De|';
+            }
+            28%{
+                content: 'D|';
+            }
+            29%{
+                content: '|';
+            }
+            30%{
+                content: '|';
+            }
+            31%{
+                content: 'P|';
+            }
+            32%{
+                content: 'Ph|';
+            }
+            33%{
+                content: 'Pho|';
+            }
+            34%{
+                content: 'Phot|';
+            }
+            35%{
+                content: 'Photo|';
+            }
+            36%{
+                content: 'Photog|';
+            }
+            37%{
+                content: 'Photogr|';
+            }
+            38%{
+                content: 'Photogra|';
+            }
+            39%{
+                content: 'Photograp|';
+            }
+            40%{
+                content: 'Photograph|';
+            }
+            41%{
+                content: 'Photographe|';
+            }
+            42%{
+                content: 'Photographer|';
+            }
+            43%{
+                content: 'Photographer.|';
+            }
+            44%{
+                content: 'Photographer|';
+            }
+            45%{
+                content: 'Photographe|';
+            }
+            46%{
+                content: 'Photograph|';
+            }
+            47%{
+                content: 'Photograp|';
+            }
+            48%{
+                content: 'Photogra|';
+            }
+            49%{
+                content: 'Photogr|';
+            }
+            50%{
+                content: 'Photog|';
+            }
+            51%{
+                content: 'Photo|';
+            }
+            52%{
+                content: 'Phot|';
+            }
+            53%{
+                content: 'Pho|';
+            }
+            54%{
+                content: 'Ph|';
+            }
+            55%{
+                content: 'P|';
+            }
+            56%{
+                content: '|';
+            }
+            57%{
+                content: '|';
+            }
+            58%{
+                content: 'F|';
+            }
+            59%{
+                content: 'Fr|';
+            }
+            60%{
+                content: 'Fre|';
+            }
+            61%{
+                content: 'Free|';
+            }
+            62%{
+                content: 'Freel|';
+            }
+            63%{content: 'Freela|';
+            }
+            64%{
+                content: 'Freelan|';
+            }
+            65%{
+                content: 'Freelanc|';
+            }
+            66%{
+                content: 'Freelance|';
+            }
+            67%{
+                content: 'Freelancer|';
+            }
+            68%{
+                content: 'Freelance|';
+            }
+            69%{
+                content: 'Freelanc|';
+            }
+            70%{
+                content: 'Freelan|';
+            }
+            71%{
+                content: 'Freela|';
+            }
+            72%{
+                content: 'Freel|';
+            }
+            73%{
+                content: 'Free|';
+            }
+            74%{
+                content: 'Fre|';
+            }
+            75%{
+                content: 'Fr|';
+            }
+            76%{
+                content: 'F|';
+            }
+            77%{
+                content: '|';
+            }
+            100%{
+                content: '|';
+            }
+        }
+.client-img{
+    width: 150px;
+    height: 150px;
+}
+
+.client{
+    margin-left: 15%;
+}
+
+.client p,.span-big,.skill p{
+    font-size: 1.1rem;
+}
+
+.span-info,.blog-info p{
+    color: #4e4e4e;
+}
+
+.loading{
+    height: 12px;
+    position: relative;
+}
+
+.load1{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.load2{
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.load3{
+width: 50%;
+height: 100%;
+position: absolute;
+top: 0;
+}
+
+.load4{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.med{
+    display: flex;
+}
+
+.about h5::after,.foot h5::after,.foot2 h5::after{
+    content: "";
+    width: 17%;
+    height: 3px;
+    background-color: #0d6efd;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+}
+
+
+.portofollio .container{
+    padding-top: 4rem;
+    padding-bottom: 4.8rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer-1 {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.services h3,.porto h3,.blog h3{
+    font-size: 3rem;
+}
+
+.services p::after,.porto p::after,.blog p::after{
+    content: "";
+    width: 40px;
+   height: 5px;
+   bottom: -20px;
+   left: 48.5%;
+ background-color: #0d6efd;
+ position: absolute;
+
+}
+
+.inner{
+    padding: 2.5rem 1.3rem;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.blue-circle{
+    width: 120px;
+    height: 120px;
+}
+
+.blue-circle i{ 
+   z-index: 3;
+}
+
+.inner h2{
+    font-size: 1.4rem;
+}
+
+.serve,.portofollio,.blog-section{
+    background-color: #f5f5f5;
+}
+.blue-circle::after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: background-color 0.4s;
+}
+
+.service-item{
+    margin-top: 3rem;
+}
+
+.blue-circle{
+    transition: background-color 0.4s;
+}
+
+.inner:hover .blue-circle{
+    background-color: rgba(13, 110, 253,0.2) !important;
+} 
+
+ .inner:hover .blue-circle::after{
+    background-color: #0d6efd;
+}
+ .inner:hover i{
+    color: #f5f5f5;
+}
+
+.achivements{
+    background-image:linear-gradient( rgba(13, 109, 253, 0.612), rgba(13, 110, 253,0.612)), url(post-3.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.caption-info p{
+    font-size: 0.8rem
+}
+
+.inner3 img{
+    transition: transform 1.2s;
+    cursor: pointer;
+}
+
+.inner3:hover img{
+    transform: scale(1.3);
+}
+
+.port-images{
+    overflow: hidden;
+}
+
+.leaves{
+    background-image:linear-gradient( rgba(27, 117, 251, 0.778), rgba(27, 117, 251, 0.678)), url(overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.chef-feedback h3{
+font-size: 1.4rem;
+}
+
+.indicators{
+    bottom: 45px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%;
+    text-indent: 0;
+}
+
+.inner4{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-info h3,.blog-info-1 h3{
+    font-size: 1.3rem;
+}
+
+.client-info a{
+    transition: color 0.4s;
+}
+
+.client-info a:hover{
+  color: #0d6efd !important;
+}
+
+.client-info img{
+    width: 30px;
+}
+
+.blog-info-1::after,.blog-info::after{
+    text-transform:uppercase ;
+    background-color: #0d6efd;
+    color: white;
+    position: absolute;
+    padding: 5px 15px;
+    font-size: 0.7rem;
+    border-radius: 4px;
+    top: -15px;
+    left: 165px;
+    font-weight:500 ;
+}
+
+.blog-info-1::after{
+    content: "travel";
+}
+
+.blog-info::after{
+    content: "WEB DESIGN";
+}
+
+.form-section{
+    background-image:linear-gradient( rgba(13, 109, 253, 0.779), rgba(13, 109, 253, 0.679)), url(overlay-bg.jpg) !important;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 6% !important;
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+}
+
+.form form input,.form form textarea{
+    padding: 10px 15px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    font-size: 14px;
+}
+
+.form form textarea{
+    height: 120px;
+}
+
+.form form button{
+    width: fit-content;
+    margin: auto;
+    padding: 10px 24px;
+    background-color: #0d6efd;
+    font-size: 1.2rem;
+    border: none;
+    transition: box-shadow 0.4s,background-color 0.4s; 
+}
+
+.form form button:hover{
+    box-shadow: 0 0 0 3px #8fb5e1a7;
+    background-color: #2b7af0;
+}
+
+.social-media{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: box-shadow 0.4s,background-color 0.4s;
+    cursor: pointer;
+}
+
+.social-media a i{
+    transition: color 0.4s;
+}
+
+.social-media:hover{
+    box-shadow:0 0 0 3px #0077ff66;
+    background-color: #0078ff;
+}
+
+.social-media:hover i{
+  color: #f5f5f5;
+}
+
+footer{
+    background-color: hsl(212, 100%, 41%);
+}
